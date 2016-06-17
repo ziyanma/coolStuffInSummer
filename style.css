@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+.toolbar{
+	width: 20%;
+	float: right;
+}
+#render{
+	display: block;
+	margin: 20px;
+	top: 50px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.toolbar div{
+	margin-top: 20px;
+}
+.toolbar input{
+	display: inline-block;
+	padding-right: 20px;
+	height: 16px;
+	width: 50px;
+	text-align: center;
+}
+.toolbar label{
+	display: inline-block;
+	padding-right: 20px;
+	height: 16px;
+	width: 50px;
+	text-align: center;
+}
+#create {
+	display: block;
+	margin: 20px;
+	text-align: center;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+}
+.coloroption{
+	position: relative;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+.coloroption div{
+	margin-top: 0;
+	position: relative;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	transition: .3s;
+}
+.coloroption div:nth-child(1){
+	background-color: #e13332;
+}
+.coloroption div:nth-child(2){
+	background-color: #576f9a;
+}
+.coloroption div:nth-child(3){
+	background-color: #8ab14e;
+}
+.coloroption div:nth-child(4){
+	background-color: #cca94b;
+}
+.coloroption div:nth-child(5){
+	background-color: #5b432d;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title> search </title>
+	<script src="http://img.jb51.net/jslib/jquery/jquery14.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./canvas.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body onload="init();">
+	<canvas id = "mCanvas" width ="750" height="520" > </canvas>
+	<div class="toolbar">
+		<button id = "render" onclick="render();">render</button>
+		<div><label>name</label><input id="name"></div>
+		<div><label>X:</label><input id="x"></div>
+		<div><label>Y:</label><input id="y"></div>
+		<div><label>W:</label><input id="w"></div>
+		<div><label>H:</label><input id="h"></div>
+		<div class="coloroption">
+			<div onclick="colorIndex=1;"></div>
+			<div onclick="colorIndex=2;"></div>
+			<div onclick="colorIndex=3;"></div>
+			<div onclick="colorIndex=4;"></div>
+			<div onclick="colorIndex=5;"></div>
+		</div>
+		<button id = "create" onclick="create();">create</button>
+	</div>
+
+</body>
+</html>
